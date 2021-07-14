@@ -1,13 +1,13 @@
 <template>
-    <nav id="navbar">
+    <nav id="navbar" class="d-none d-lg-block">
         <img src="@/assets/img/compostall-logo-white.png" alt="Logo Compostall blanc" class="white-logo">
         <img src="@/assets/img/small-logo.png" alt="Logo Compostall blanc" class="small-logo">
         <ul class="list-unstyled text-start">
-            <li class="p-2 mt-5 my-4 fs-4 nav-item d-flex align-items-center"><router-link to="/"><img src="@/assets/img/Dashboard-badge.png" class=""><span class="link-text">Dashboard </span></router-link></li>
-            <li class="p-2 my-4 fs-4 nav-item d-flex align-items-center"><router-link to="/calendar"><img src="@/assets/img/Calendrier-badge.png" class=""><span class="link-text">Calendrier </span></router-link></li>
-            <li class="p-2 my-4 fs-4 nav-item d-flex align-items-center"><router-link to="/messages"><img src="@/assets/img/Message-badge.png" class=""><span class="link-text">Messages </span></router-link></li>
-            <li class="p-2 my-4 fs-4 nav-item d-flex align-items-center"><router-link to="/account"><img src="@/assets/img/Mon compte-badge.png" class=""><span class="link-text">Mon compte</span></router-link></li>
-            <li class="p-2 my-4 fs-4 nav-item d-flex align-items-center logout bottom-0 position-absolute"><img src="@/assets/img/Log-out-badge.png"><span class="link-text">Déconnexion </span></li>
+            <li class="p-2 mt-5 my-4 fs-4 nav-item d-flex align-items-center"><router-link to="/"><img src="@/assets/img/Dashboard-badge.png" alt="Dashboard"><span class="link-text">Dashboard </span></router-link></li>
+            <li class="p-2 my-4 fs-4 nav-item d-flex align-items-center"><router-link to="/calendar"><img src="@/assets/img/Calendrier-badge.png" alt="Calendrier"><span class="link-text">Calendrier </span></router-link></li>
+            <li class="p-2 my-4 fs-4 nav-item d-flex align-items-center"><router-link to="/messages"><img src="@/assets/img/Message-badge.png" alt="Messages"><span class="link-text">Messages </span></router-link></li>
+            <li class="p-2 my-4 fs-4 nav-item d-flex align-items-center"><router-link to="/account"><img src="@/assets/img/Mon compte-badge.png" alt="Mon Compte"><span class="link-text">Mon compte</span></router-link></li>
+            <li class="p-2 my-4 fs-4 nav-item d-flex align-items-center logout bottom-0 position-absolute"><img src="@/assets/img/Log-out-badge.png" alt="Déconnexion"><span class="link-text">Déconnexion </span></li>
             <!-- position-absolute bottom-0 -->
         </ul>
     </nav>

@@ -76,6 +76,11 @@ input:focus {
 }
 .container-fluid {
   padding: 0 2em 0 9em;
-  /* margin-left: 9em; */
+}
+
+@media (max-width: 992px) {
+  .container-fluid {
+    padding: 0 2em 1.5em;
+  }
 }
 </style>
